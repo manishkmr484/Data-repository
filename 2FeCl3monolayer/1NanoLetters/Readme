@@ -1,3 +1,5 @@
 
 1) The structures were relaxed first.
 2) The energies were obtained from the relaxed structures.
+
+*Recommended INCAR files from VASPKIT code were used. 
