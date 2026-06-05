@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --chdir=./
+#SBATCH -e ./job.%J.err
+#SBATCH -o ./job.%J.out
+#SBATCH -J simple_slurm_job
+#SBATCH --mem 32G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=32
+#SBATCH -t 400:30:30
+ulimit -s unlimited
+
+source /lustre/home/mohantamk/intel/oneapi/setvars.sh
+mpirun -np 32 /lustre/home/mohantamk/software/vasp/vasp.6.4.3/bin/vasp_std
