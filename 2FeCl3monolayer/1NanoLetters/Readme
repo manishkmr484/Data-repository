@@ -15,7 +15,7 @@ ______________________________________________________________________
 
 
 ### Case-2: Structure relaxation with different functionals under FM and AFM configurations separately, resulting in inequivalent geometries
-The calculation files are provided for this case.
+The calculation files are provided for this case only.
 
 | Functional   | FM Energy (eV) | AFM Energy (eV) |    J (meV)   |
 |--------------|----------------|-----------------|--------------|
