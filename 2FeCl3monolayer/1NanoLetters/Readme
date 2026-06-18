@@ -27,5 +27,5 @@ ________________________________________________________________________
 *Recommended INCAR files from VASPKIT code were used.
 
 Note: For monolayer dispersion corrections, DFT-D2 or DFT-D3 are typically not needed, as their primary bonds are covalent.
-However, both these corrections are broadly used to correctly model the weak interlayer binding energies, binding distances,
+However, both these corrections are broadly used to correctly model the weak interlayer binding energies,
 stacking arrangements between two or more stacked 2D materials and adsorption studies on the surfaces.
