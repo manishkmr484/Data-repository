@@ -1,7 +1,4 @@
 
-1) The structures were relaxed first.
-2) The energies were obtained from the relaxed structures.
-
 The energies of FeCl3 monolayer under different cases:
 
 ### Case-1: Single-point SCF with different functionals (same geometry)
@@ -16,6 +13,9 @@ ______________________________________________________________________
 
 ### Case-2: Structure relaxation with different functionals under FM and AFM configurations separately, resulting in inequivalent geometries
 The calculation files are provided for this case only.
+
+1) The structures were relaxed first.
+2) The energies were obtained from the relaxed structures.
 
 | Functional   | FM Energy (eV) | AFM Energy (eV) |    J (meV)   |
 |--------------|----------------|-----------------|--------------|
